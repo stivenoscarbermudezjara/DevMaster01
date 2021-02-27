@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>devmaster Perú</title>
+</head>
+
+<body>
+    <form action="" method="">
+        <label for="">Nombres</label>
+        <!-- <input type="text" pattern="[A-Za-z\s]" required>-->
+        <!--NO me deja pasar-->
+        <input type="text" pattern="[A-Za-z\s]{1,30}" title="Solo texto" required>
+
+        <label for="">DNI</label>
+        <input type="text" pattern="[0-9]{8}" title="Solo numeros (maximo 8)" maxlength="8" required> <br><br>
+
+        <label for="">PRECIO</label>
+        <!-- <input type="number" min="0" step=".01" required>-->
+        <input type="text" pattern="[0-9]\.[0-9]{1,3}" title="Ejemplo 2.4" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
