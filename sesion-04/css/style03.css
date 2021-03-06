@@ -1,0 +1,45 @@
+img {
+    width: 400px;
+}
+
+
+/* tipografias locales*/
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/playfair-display-v15-latin-regular.eot'), url('../fonts/playfair-display-v15-latin-regular.woff2') format('woff2'), url('../fonts/playfair-display-v15-latin-regular.woff') format('woff'), url('../fonts/playfair-display-v15-latin-regular.ttf') format('truetype'), url('../fonts/playfair-display-v15-latin-regular.svg')format('svg');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/playfair-display-v15-latin-700.eot'), url('../fonts/playfair-display-v15-latin-700.woff2') format('woff2'), url('../fonts/playfair-display-v15-latin-700.woff') format('woff'), url('../fonts/playfair-display-v15-latin-700.ttf') format('truetype'), url('../fonts/playfair-display-v15-latin-700.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 900;
+    src: url('../fonts/playfair-display-v15-latin-900italic.eot'), url('../fonts/playfair-display-v15-latin-900italic.woff2') format('woff2'), url('../fonts/playfair-display-v15-latin-900italic.woff') format('woff'), url('../fonts/playfair-display-v15-latin-900italic.ttf') format('truetype'), url('../fonts/playfair-display-v15-latin-900italic.svg') format('svg');
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-style: italic;
+}
+
+p {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-style: normal;
+}

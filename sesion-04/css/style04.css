@@ -1,0 +1,19 @@
+img {
+    width: 400px;
+}
+
+
+/* tipografias locales*/
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/playfair-display-v15-latin-regular.eot?#iefix')format('embedded-opentype'), url('../fonts/playfair-display-v15-latin-regular.woff2') format('woff2'), url('../fonts/playfair-display-v15-latin-regular.woff') format('woff'), url('../fonts/playfair-display-v15-latin-regular.ttf') format('truetype'), url('../fonts/playfair-display-v15-latin-regular.svg')format('svg');
+}
+
+p {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-style: normal;
+}

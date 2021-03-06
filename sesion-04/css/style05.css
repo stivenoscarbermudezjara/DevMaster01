@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'valentime';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Valentime.eot');
+    src: url('../fonts/Valentime.eot?#iefix')format('embedded-opentype'), url('../fonts/Valentime.woff2') format('woff2'), url('../fonts/Valentime.woff') format('woff'), url('../fonts/Valentime.ttf') format('truetype'), url('../fonts/Valentime.svg') format('svg');
+}
+
+h1 {
+    font-family: 'valentime';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+}
