@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>devmaster Perú</title>
+    <style>
+        h1+p {
+            background-color: deepskyblue;
+            text-decoration: underline;
+        }
+        
+        h1~span {
+            background-color: deeppink;
+        }
+        /*selectores de atributos*/
+        /*que ocntenga parrafo*/
+        
+        [class*="parrafo"] {
+            color: deeppink;
+        }
+        /*inicie con pdf*/
+        
+        [href^="pdf"] {
+            background-color: orangered;
+        }
+        /*termine con pdf*/
+        
+        [href$=".pdf"] {
+            padding: 7px 15px;
+            border: 2px solid black;
+            border-radius: 4px;
+        }
+        
+        [href^="http"] {
+            background-color: cadetblue;
+            padding: 7px 15px;
+            border: 2px solid blueviolet;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="menu">
+        <ul class="segundo">
+            <li>
+                <a href="#"></a> Item1</li>
+            <li>
+                <a href="#" class="activo"></a> Item2</li>
+        </ul>
+    </nav>
+    <section>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus dicta, animi commodi suscipit consequuntur quasi qui soluta rem excepturi voluptas, eius tempore impedit quae totam? Placeat ab voluptates saepe quas. <a href="#">cLICK</a> </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quibusdam deserunt dolore, vero eum quidem tempora ratione necessitatibus inventore labore impedit perspiciatis molestiae molestias, magnam tempore! Non a quos ad? <strong><a href="#">CLICK</a></strong></p>
+    </section>
+    <article>
+        <p>Ojito aqui</p>
+        <h1>Devmaster</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus incidunt ipsam et doloremque, vero dolores iure, molestias pariatur totam praesentium laudantium exercitationem unde distinctio ab neque nesciunt sed magni fugit.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste atque, dolor illum architecto libero pariatur voluptas vel incidunt alias sunt, facilis molestiae necessitatibus qui illo accusantium sed dolore a error.</p>
+    </article>
+    <section>
+        <h2>Devmaster</h2>
+        <p class="parrafo-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa corporis quas harum tenetur illo facilis officiis aut quos nemo eius sint explicabo, voluptas quidem laborum id. Accusantium iusto voluptatem sit?</p>
+        <p class="parrafo-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias ut atque enim nesciunt qui? Quos optio unde facere molestias cumque? Placeat praesentium dolor laborum repellendus, laboriosam harum omnis! Ut, eos?</p>
+        <a href="https://www.facebook.com/" ">ir a facebook</a>
+        <a href="# " class=" ">Ver pdf</a>
+    </section>
+</body>
+
+</html>

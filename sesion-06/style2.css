@@ -1,0 +1,23 @@
+header {
+    font-family: 'poppins', 'arial', 'sans-serif';
+}
+
+header .contenedor {
+    width: 500px;
+    background-color: lawngreen;
+}
+
+header h1,
+h2 {
+    text-align: center;
+}
+
+header .imagenes {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 30px;
+    color: #158A2F;
+}
