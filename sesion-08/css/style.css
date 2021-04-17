@@ -148,6 +148,10 @@ textarea {
 
 /*card-1 */
 
+.card-1 {
+    margin-bottom: 40px;
+}
+
 .card-1:hover div {
     background-color: var(--primary-color);
 }
@@ -176,6 +180,66 @@ textarea {
 }
 
 
+/*card-2 */
+
+.card-2 {
+    background-color: var(--quaternary-color);
+    width: 380px;
+    border-radius: 12px;
+    padding: 31px 30px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.card-2 p {
+    color: var(--terteary-color);
+    margin: 18px;
+}
+
+.card-2 span {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--terteary-color);
+    margin-top: 7px;
+}
+
+.card-2>div {
+    display: flex;
+    align-items: center;
+}
+
+.card-2 figure {
+    padding-right: 38px;
+}
+
+
+/*card-3*/
+
+.card-3 {
+    background-color: var(--quaternary-color);
+    width: 380px;
+    border-radius: 5px;
+    padding: 34px 68px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.card-3>span {
+    font-size: 62px;
+    line-height: 52px;
+    padding-right: 14px;
+    color: var(--quinary-color);
+}
+
+.card-3 .card-3__details span {
+    font-size: 44px;
+    line-height: 51px;
+    font-weight: 700;
+}
+
+
 /****************************
  Style
  *****************************/
@@ -187,15 +251,40 @@ textarea {
     width: 1200px;
     padding: 0 10px;
     margin: 0 auto;
-    outline: 1px dashed red;
+    /* outline: 1px dashed red;*/
 }
 
 
 /* hero-banner */
 
+.main-h-hero-banner {
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 78px;
+}
+
+.main-home-header {
+    width: 100%;
+    position: fixed;
+    background-color: var(--white-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16);
+}
+
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+}
+
+.home-header .icon-menu {
+    font-size: 48px;
+}
+
 .h-hero-banner {
     height: 600px;
-    background-color: #fafafa;
     display: flex;
     align-items: center;
     /*centrar en el eje secundario*/
@@ -239,7 +328,31 @@ textarea {
 }
 
 
+/*Details*/
+
+.home-details {
+    display: flex;
+    padding-top: 48px;
+}
+
+.home-details .card-3:not(:last-child) {
+    margin-right: 17px;
+}
+
+.home-details .card-3:not(:last-child) {
+    margin-right: 20px;
+}
+
+
 /* recommendations */
+
+.home-recomendations {
+    display: flex;
+}
+
+.home-recomendations .card-2:not(:last-child) {
+    margin-right: 20px;
+}
 
 .h-form {
     display: flex;
@@ -274,6 +387,10 @@ footer*/
     background-color: var(--black-color);
 }
 
+.home-footer {
+    padding: 53px 0;
+}
+
 .home-footer ul {
     list-style-type: none;
     display: flex;
@@ -292,4 +409,9 @@ footer*/
 .home-footer p {
     color: var(--terteary-color);
     text-align: center;
+}
+
+.home-footer p a {
+    color: var(--terteary-color);
+    text-decoration: underline;
 }
